@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+  }
+  
+  .game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 70px;
+    height: 100px;
+    margin: 5px;
+    background-color: #ccc;
+    line-height: 100px;
+  }
+  
+  .card.flipped {
+    background-color: #f00;
+  }
